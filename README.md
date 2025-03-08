@@ -70,6 +70,59 @@ Screenshots:
 ![10](https://github.com/user-attachments/assets/04e14194-e432-42f0-aa19-87d1590a235c)
 ![11](https://github.com/user-attachments/assets/08b69359-ec3e-4c67-a1ec-1781bf0d64c8)
 
+SQL File
+
+create database bankmanagementsystem;
+
+use bankmanagementsystem;
+
+
+CREATE TABLE Customer (
+customer_id INT(4) AUTO_INCREMENT,
+first_name VARCHAR(100),
+last_name VARCHAR(100),
+dob Date,
+gender VARCHAR(100),
+email VARCHAR(100),
+marital_status VARCHAR(100),
+address VARCHAR(100),
+postal_code VARCHAR(100),
+phone_number BIGINT(10),
+id_type VARCHAR(100),
+id_number VARCHAR(100),
+sin BIGINT(9),
+employment_status VARCHAR(100),
+job_title VARCHAR(100),
+income_range VARCHAR(100),
+PRIMARY KEY (customer_id)
+) AUTO_INCREMENT = 1000;
+
+CREATE TABLE Account(
+account_id int(4) AUTO_INCREMENT,
+account_type VARCHAR(20),
+card_number BIGINT(16),
+pin_number BIGINT(4),
+balance DOUBLE,
+customer_id INT,
+PRIMARY KEY (account_id),
+FOREIGN KEY (customer_id) REFERENCES Customer (customer_ID)
+) Auto_INCREMENT = 2000;
+
+
+
+CREATE TABLE Transaction(
+transaction_id int(4) AUTO_INCREMENT,
+transaction_type VARCHAR(20),
+amount DOUBLE,
+transaction_date Date,
+account_id INT,
+PRIMARY KEY (transaction_id),
+FOREIGN KEY (account_id) REFERENCES Account (account_ID)
+) Auto_INCREMENT = 3000;
+
+
+
+
 
 
 
