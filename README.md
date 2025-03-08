@@ -20,10 +20,25 @@ Tools: Eclipse IDE, MySQL Workbench
 Operating System: Windows 10
 
 Installation:
+
 Clone the repository from GitHub.
+
 Install Java and MySQL.
+
 Set up the MySQL database using the provided schema.
+
+MySQL Connector JAR: Download the MySQL Connector/J online
+
+In Eclipse, right-click your project, go to Build Path > Configure Build Path > Libraries.
+
+Click Add External JARs and select the MySQL Connector JAR file.
+
+JCalendar JAR: Download the JCalendar JAR file online.
+
+Similarly, go to Build Path > Configure Build Path > Libraries, click Add External JARs, and select the JCalendar JAR file.
+
 Configure the database connection in the ConnectionUtil class.
+
 Run the project using Eclipse or any compatible IDE.
 
 How to Use:
