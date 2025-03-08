@@ -56,3 +56,21 @@ Structure:
 Model: Handles data management (e.g., customer information, transactions).
 View: Contains the GUI for user interaction (e.g., login screen, transaction menus).
 Controller: Manages the communication between the model and the view.
+
+Screenshots:
+![Capture](https://github.com/user-attachments/assets/33e24cd4-d700-477f-8be6-03f549d6ef58)
+![2](https://github.com/user-attachments/assets/bbde7e56-7b6c-4aca-8a86-e6424ef01f4c)
+![3](https://github.com/user-attachments/assets/b5af7e62-0d9b-46f9-aa7d-bfd7ee911185)
+![4](https://github.com/user-attachments/assets/54cfc1e6-b58d-4bfb-a59a-07c5864fbab8)
+![5](https://github.com/user-attachments/assets/104ab670-2b14-43dd-9d42-c11ce7d361e7)
+![6](https://github.com/user-attachments/assets/72c1dda5-f32b-4be0-85b7-31945ec6d6b2)
+![7](https://github.com/user-attachments/assets/e2c90249-e52c-4a5b-882f-0b0eab72798b)
+![8](https://github.com/user-attachments/assets/dbbc1766-c3b5-49e1-8d21-9f676ed4119c)
+![9](https://github.com/user-attachments/assets/cb6d7e60-0e4c-410d-a725-566e3b41180e)
+![10](https://github.com/user-attachments/assets/04e14194-e432-42f0-aa19-87d1590a235c)
+![11](https://github.com/user-attachments/assets/08b69359-ec3e-4c67-a1ec-1781bf0d64c8)
+
+
+
+
+
